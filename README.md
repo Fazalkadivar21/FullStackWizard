@@ -27,8 +27,8 @@ Imagine coding becoming the highlight of your day, the puzzle you can't wait to 
 Don't just spectate – join the fun! Follow my journey, drop some emojis of encouragement, and who knows, you might pick up a trick or two along the way. Let's turn code into a playground and goals into the most epic adventure of our lives! 💻✨
 
 ### Follow Along!
-- **Twitter:** [@YourHandle](https://twitter.com/fazalkadivar21)
-- **LinkedIn:** [Your Name](https://www.linkedin.com/in/fazalkadivar/)
+- **Twitter:** [@fazalkadivar21](https://twitter.com/fazalkadivar21)
+- **LinkedIn:** [Fazal Kadivar](https://www.linkedin.com/in/fazalkadivar/)
 
 ### Hashtags
 #FullStackWebQuest #CodeAdventures #100DaysOfCodeMagic
