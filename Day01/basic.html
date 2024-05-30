@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>basics of html</title>
+  </head>
+  <body>
+    <h1>this is main heading.</h1>
+    <h2>this is sub heading.</h2>
+    <h3>this is sub sub heading.</h3>
+    <h4>this is sub sub sub heading.</h4>
+    <h5>this is sub sub sub sub heading.</h5>
+    <h6>this is sub sub sub sub sub heading.</h6>
+
+    <p>
+      this is a paragraph. <br />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+      vitae distinctio asperiores voluptatem quam possimus ipsum explicabo
+      excepturi error quis, illo veniam fugit debitis magni enim nemo! Impedit
+      facere eius quam quo, ea molestiae, necessitatibus provident debitis neque
+      quis tempora.
+    </p>
+
+    <a href="www.google.com"> this is a link </a><br />
+    <a href="www.music.youtube.com"> this is a second link </a><br />
+    <a href="www.youtube.com"> this is a third link </a><br />
+
+    <p>these are img.</p>
+    <img
+      src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+      alt="google logo"
+      width="200"
+      height="100"
+    />
+    <img
+      src="https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg"
+      alt="youtube logo"
+      width="200"
+      height="100"
+    />
+
+    <ul>
+      <li>this is unordered list</li>
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ul>
+    <!-- ul styles -->
+    <ul type="circle">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ul>
+    <ul type="square">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ul>
+    <ul type="disc">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ul>
+
+    <ol>
+      <li>this is ordered list</li>
+      <li>ordered list item 1</li>
+      <li>ordered list item 2</li>
+      <li>ordered list item 3</li>
+      <li>ordered list item 4</li>
+    </ol>
+    <!-- ol styles -->
+    <ol type="A">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ol>
+    <ol type="I">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ol>
+    <ol type="a">
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ol>
+
+    <table border="1">
+      <thead>
+        this is table header
+      </thead>
+      <th>this is table heading</th>
+      <tr>
+        <td>table data 1</td>
+        <td>table data 2</td>
+        <td>table data 3</td>
+        <td>table data 4</td>
+      </tr>
+      <tr>
+        <td colspan="3">this is colspan</td>
+        <td rowspan="2">this is row span</td>
+      </tr>
+      <tr>
+        <td>table data 5</td>
+        <td>table data 6</td>
+        <td>table data 7</td>
+      </tr>
+      <tfoot>
+        this is table footer
+      </tfoot>
+    </table>
+    <br>
+    <h1>this is a form</h1>
+    <br>
+
+    <!-- form example with its every property -->
+    <form method="post" style="border: 1px solid black;">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required /><br />
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required /><br />
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required /><br />
+      <label for="color">Color:</label>
+      <input type="color" id="color" name="color" required /><br />
+      <label for="range">Range:</label>
+      <input type="range" id="range" name="range" required /><br />
+      <label for="file">File:</label>
+      <input type="file" id="file" name="file" required /><br />
+      <label for="reset">Reset:</label>
+      <input type="reset" id="reset" name="reset" /><br />
+      <label for="button">Button:</label>
+      <input type="button" id="button" name="button" value="click me" /><br />
+      <label for="checkbox">Checkbox:</label>
+      <input type="checkbox" id="checkbox" name="checkbox" /><br />
+      <label for="radio">Radio:</label>
+      <input type="radio" id="radio" name="radio" /><br />
+      <label for="select">Select:</label>
+      <select name="select" id="select">
+        <option value="option1">option 1</option>
+        <option value="option2">option 2</option>
+        <option value="option3">option 3</option>
+        <option value="option4">option 4</option></select
+      ><br />
+      <label for="textarea"
+        >Textarea:
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+      </label> <br>
+      <label for="submit">Submit:</label>
+      <input type="submit" id="submit" name="submit" /><br />
+    </form>
+
+    <!-- example of class and id -->
+    <p class="par">this is a paragraph with class</p>
+    <p id="para">this is a paragraph with id</p>
+    <p class="pa" id="p">this is a paragraph with class and id</p>
+    
+  </body>
+</html>
