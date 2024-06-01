@@ -1,0 +1,52 @@
+/* element selector */
+div {
+    color: red;
+    background-color: #c27272;
+}
+/* class selector */
+div.clas{
+    color: blue;
+    background-color: #4f306e;
+}
+/* id selector */
+div#id{
+    color: green;
+    background-color: #12936f;
+}
+/* child selector */
+div > p{
+    color: yellow;
+    background-color: #8b7f2f;
+}
+/* desendent selector */
+div p{
+    color: orange;
+    background-color: #af2887;
+}
+/* universal seelector */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* pseudo-class selector */
+a:link{
+    color: #ff0000;
+}
+a:visited{
+    color: #00ff00;
+}
+a:hover{
+    color: #0000ff;
+}
+a:active{
+    color: #000000;
+}
+
+div:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+p:first-child{
+    color: #000000;
+    background-color: #ffffff;
+}
