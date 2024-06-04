@@ -1,0 +1,15 @@
+div{
+    margin: 100px;
+    border: 1px solid red;
+}
+
+.shadow{
+    box-shadow: 10px 10px 5px #888888;
+}
+.outline{
+    outline: 1px solid black;
+    outline-offset: 10px;
+}
+.textshadow{
+    text-shadow: 2px 2px 2px #FF0000;
+}
