@@ -1,0 +1,74 @@
+body {
+  background-color: lightgray;
+  text-align: center;
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  h1 {
+    color: red;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  h1 {
+    color: orange;
+  }
+
+  p {
+    font-size: 24px;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  h1 {
+    color: red;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  h1 {
+    color: orange;
+  }
+
+  p {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1199px) {
+  p {
+    text-align: center;
+  }
+}

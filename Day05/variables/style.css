@@ -1,0 +1,19 @@
+:root {
+    --primary-color: rgb(89, 89, 109);
+    --secondary-color: rgb(0, 255, 179);
+    --font-size: 16px;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: var(--font-size);
+}
+
+h1 {
+    font-size: calc(var(--font-size) * 2);
+}
+
+p {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,41 @@
+.static {
+    position: static;
+    width: 200px;
+    height: 50px;
+    background-color: #ff0000;
+}
+
+.relative {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background-color: #00ff00;
+    top: 20px;
+    left: 20px;
+}
+
+.absolute {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: #0000ff;
+    top: 100px;
+    left: 100px;
+}
+
+.fixed {
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    background-color: #ff00ff;
+    top: 200px;
+    left: 200px;
+}
+
+.sticky {
+    position: sticky;
+    width: 200px;
+    height: 50px;
+    background-color: #00ffff;
+    top: 0;
+}
