@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        display: flex;
+        position: absolute;
+        text-transform: capitalize;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .card {
+        position: relative;
+        top: 16vh;
+        left: 40vw;
+        height: auto;
+        width: 20vw;
+        border: 1px solid #ffffff;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: #bababa 0px 0px 10px 0px;
+      }
+      .cimg {
+        width: 100%;
+        height: auto;
+      }
+      .fline {
+        margin: 10px;
+      }
+      .fline > button {
+        margin: 5px;
+        padding: 10px;
+        border: 1px solid black;
+        background-color: #fff;
+        border-radius: 50px;
+      }
+      .title {
+        margin: 10px;
+      }
+      .des {
+        margin: 10px;
+      }
+      .rm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .rm > button {
+        margin: 10px;
+        padding: 10px;
+        border-radius: 50px;
+        border: 1px solid blue;
+        background-color: #f8f8f8;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+        srcset=""
+        class="cimg"
+      />
+      <div class="fline">
+        <button type="button">Nature</button>
+        <button type="button">Lake</button>
+      </div>
+      <div class="title">
+        <h1>Lorem ipsum dolor sit.</h1>
+      </div>
+      <div class="des">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
+          possimus laboriosam suscipit laborum expedita quae molestias, quidem
+          delectus labore saepe commodi omnis dolorem voluptatem explicabo
+          maiores optio fuga consequatur ipsum?
+        </p>
+      </div>
+      <div class="rm">
+        <button type="button">Read more</button>
+      </div>
+    </div>
+  </body>
+</html>

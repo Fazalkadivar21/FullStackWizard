@@ -1,44 +1,60 @@
-*,
-nav,
-nav > ul {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
+@import url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2);
 * {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  text-transform: capitalize;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Netflix Sans", sans-serif;
+  color: rgb(255, 124, 124);
 }
-
-body {
-  background-color: rgb(255, 255, 255);
-}
-
 nav {
+  /* margin: 0px 10px; */
+  padding: 10px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.6629026610644257) 0%,
+    rgba(9, 9, 121, 0) 57%
+  );
   width: 100%;
-  background: linear-gradient(180deg, rgba(0,0,0,0.6629026610644257) 0%, rgba(9,9,121,0) 57%);
-  z-index: 1000;
-}
-
-
-nav > ul {
-  list-style: none;
+  height: auto;
   display: flex;
-  justify-content: space-around;
-  padding-top: 5px;
-  font-size: 1em;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
-
-.navli {
-  padding: 15px;
-  color: rgb(255, 255, 255);
+nav ul.first {
+  margin-left: 25px;
+  list-style: none;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
-
 .logo {
-  width: 100px;
-  margin: 0 10px;
+  margin-top: 1px;
+  padding: 0px 25px;
+  height: 25px;
 }
 
+nav ul.first li:first-child {
+  margin-right: 8px;
+  padding: 10px 0px;
+  text-transform: capitalize;
+  width: auto;
+}
+
+nav ul.first li:not(:first-child) {
+  margin: 0px 10px;
+  padding-left: 2px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 0.85em;
+  width: auto;
+}
+nav ul.snd {
+  list-style: none;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}

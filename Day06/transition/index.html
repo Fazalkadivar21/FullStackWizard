@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition Examples</title>
+    <style>
+        .box, .box-multiple, .box-ease, .box-delay, .box-transform {
+            display: inline-block;
+            margin: 20px;
+        }
+
+        /* Example 1: Basic Transition */
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            transition: background-color 0.5s;
+        }
+
+        .box:hover {
+            background-color: red;
+        }
+
+        /* Example 2: Multiple Properties Transition */
+        .box-multiple {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            transition: width 0.5s, height 0.5s;
+        }
+
+        .box-multiple:hover {
+            width: 200px;
+            height: 200px;
+        }
+
+        /* Example 3: Easing Function */
+        .box-ease {
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            transition: width 0.5s ease-in-out;
+        }
+
+        .box-ease:hover {
+            width: 200px;
+        }
+
+        /* Example 4: Delay */
+        .box-delay {
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            transition: width 0.5s 1s; /* 1s delay */
+        }
+
+        .box-delay:hover {
+            width: 200px;
+        }
+
+        /* Example 5: Transition on Transform */
+        .box-transform {
+            width: 100px;
+            height: 100px;
+            background-color: teal;
+            transition: transform 0.5s;
+        }
+
+        .box-transform:hover {
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Transition Examples</h1>
+    
+    <h2>Example 1: Basic Transition</h2>
+    <div class="box"></div>
+    
+    <h2>Example 2: Multiple Properties Transition</h2>
+    <div class="box-multiple"></div>
+    
+    <h2>Example 3: Easing Function</h2>
+    <div class="box-ease"></div>
+    
+    <h2>Example 4: Delay</h2>
+    <div class="box-delay"></div>
+    
+    <h2>Example 5: Transition on Transform</h2>
+    <div class="box-transform"></div>
+</body>
+</html>

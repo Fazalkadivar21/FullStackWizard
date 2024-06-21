@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e1</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        color: black;
+        background: forestgreen;
+      }
+      nav {
+        position: sticky;
+        background: blueviolet;
+        height: 100px;
+        width: 100%;
+        padding: 20px;
+        top: 0;
+      }
+      div.content {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 800px;
+        width: 100%;
+        margin: 25px;
+        padding: 25px;
+      }
+      div > .child {
+        height: 600px;
+        width: 35%;
+        background: red;
+        margin: 30px;
+      }
+      .para {
+        border: 1px solid cyan;
+        border-radius: 35%;
+        margin: 10px;
+        padding: 100px;
+        height: 200px;
+        width: 100%;
+      }
+      footer {
+        background: white;
+        height: 200px;
+        width: 100%;
+        margin: 25px;
+        padding: 25px;
+      }
+      .float {
+        position: fixed;
+        top: 90%;
+        left: 90%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav></nav>
+    <div class="content">
+      <div class="child"></div>
+      <div class="child"></div>
+    </div>
+    <div class="para">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+        corrupti.
+      </p>
+    </div>
+    <footer>
+      <p>xyz</p>
+    </footer>
+
+    <svg
+      class="float"
+      height="100"
+      width="100"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle r="45" cx="50" cy="50" fill="red" />
+    </svg>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colorNav</title>
+    <style>
+        :root{
+            --color1: #784242;
+            --color2: #1e6e4f;
+            --color3: #456928;
+            --color4: #53474f;
+            --color5: #b9b920;
+        }
+        .body{
+            margin: 0;padding: 0;box-sizing: border-box;
+        }
+        nav{
+            background-color: tomato;
+        }
+        nav ul{
+            display: flex;
+            /* align-items: center;
+            justify-content: space-between;  */
+            flex-direction: row;
+        }
+        li{
+            list-style: none;
+            padding: 10px;
+            margin: 10px;
+            width: 40px;
+        }
+        li:nth-child(1){
+            background-color: var(--color1);
+        }
+        li:nth-child(2){
+            background-color: var(--color2);
+        }
+        li:nth-child(3){
+            background-color: var(--color3);
+        }
+        li:nth-child(4){
+            background-color: var(--color4);
+        }
+        li:nth-child(5){
+            background-color: var(--color5);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>tv</li>
+            <li>mobile</li>
+            <li>wp</li>
+            <li>intra</li>
+        </ul>
+    </nav>
+</body>
+</html>
