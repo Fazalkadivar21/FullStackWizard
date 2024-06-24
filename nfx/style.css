@@ -5,8 +5,3 @@
   box-sizing: border-box;
   font-family: "Netflix Sans", sans-serif;
 }
-.first{
-  object-fit: fill;
-  object-position: center center;
-  width: 100%;
-}
