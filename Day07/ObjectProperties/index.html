@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .image-cover {
+        width: 500px; 
+        height: 500px;
+        object-fit: cover; 
+      }
+      .image-contain {
+        width: 500px;
+        height: 500px;
+        object-fit: contain; 
+      } 
+      .image-fill {
+        width: 500px; 
+        height: 500px;
+        object-fit: fill; 
+      } 
+      .image-cover-position {
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        object-position: top right;
+      }
+      .image-custom {
+        width: 500px;
+        height: 500px;
+        object-fit: cover; 
+        object-position: 20% 80%;
+      } 
+    </style>
+  </head>
+  <body>
+    <div
+      class="image-cover"
+      style="background-image: url('https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg')"
+    ></div>
+    <div
+      class="image-contain"
+      style="background-image: url('https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg')"
+    ></div>
+    <div
+      class="image-fill"
+      style="background-image: url('https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg')"
+    ></div>
+    <div
+      class="image-cover-position"
+      style="background-image: url('https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg')"
+    ></div>
+    <div
+      class="image-custom"
+      style="background-image: url('https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg')"
+    ></div>
+  </body>
+</html>

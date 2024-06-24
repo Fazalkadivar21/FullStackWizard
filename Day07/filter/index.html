@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            margin: 25px;
+            width: 200px;
+        }
+        body{
+            display: flex;
+            justify-content:space-around;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+      /* Example 1: Applying a grayscale filter */
+      .image-grayscale {
+        filter: grayscale(100%); /* Converts the image to grayscale */
+      }
+
+      /* Example 2: Applying a blur filter */
+      .image-blur {
+        filter: blur(5px); /* Applies a blur effect with a radius of 5px */
+      }
+
+      /* Example 3: Applying a sepia filter */
+      .image-sepia {
+        filter: sepia(60%); /* Converts the image to sepia tone */
+      }
+
+      /* Example 4: Combining multiple filters */
+      .image-combined {
+        filter: grayscale(50%) blur(2px) sepia(20%); /* Combines grayscale, blur, and sepia filters */
+      }
+
+      /* Example 5: Applying a brightness filter */
+      .image-brightness {
+        filter: brightness(150%); /* Increases the brightness of the image */
+      }
+
+      /* Example 6: Applying a contrast filter */
+      .image-contrast {
+        filter: contrast(200%); /* Increases the contrast of the image */
+      }
+
+      /* Example 7: Applying a drop-shadow filter */
+      .image-drop-shadow {
+        filter: drop-shadow(
+          5px 5px 5px black
+        ); /* Applies a drop shadow effect */
+      }
+
+      /* Example 8: Applying a hue-rotate filter */
+      .image-hue-rotate {
+        filter: hue-rotate(90deg); /* Rotates the hue of the image */
+      }
+
+      /* Example 9: Applying a saturate filter */
+      .image-saturate {
+        filter: saturate(300%); /* Increases the saturation of the image */
+      }
+
+      /* Example 10: Applying an invert filter */
+      .image-invert {
+        filter: invert(100%); /* Inverts the colors of the image */
+      }
+
+      /* HTML structure for applying the above CSS */
+    </style>
+  </head>
+  <body>
+    <div
+      class="image-grayscale"
+      style="background-image: url('https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg')"
+    ></div>
+    <div
+      class="image-blur"
+      style="background-image: url('https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg')"
+    ></div>
+    <div
+      class="image-sepia"
+      style="background-image: url('https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg')"
+    ></div>
+    <div
+      class="image-combined"
+      style="background-image: url('https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg')"
+    ></div>
+    <div
+      class="image-brightness"
+      style="background-image: url('https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg')"
+    ></div>
+    <div
+      class="image-contrast"
+      style="background-image: url('https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg')"
+    ></div>
+    <div
+      class="image-drop-shadow"
+      style="background-image: url('https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg')"
+    ></div>
+    <div
+      class="image-hue-rotate"
+      style="background-image: url('https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg')"
+    ></div>
+    <div
+      class="image-saturate"
+      style="background-image: url('https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg')"
+    ></div>
+    <div
+      class="image-invert"
+      style="background-image: url('https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg')"
+    ></div>
+  </body>
+</html>

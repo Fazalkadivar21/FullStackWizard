@@ -4,57 +4,9 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Netflix Sans", sans-serif;
-  color: rgb(255, 124, 124);
 }
-nav {
-  /* margin: 0px 10px; */
-  padding: 10px;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.6629026610644257) 0%,
-    rgba(9, 9, 121, 0) 57%
-  );
+.first{
+  object-fit: fill;
+  object-position: center center;
   width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-}
-nav ul.first {
-  margin-left: 25px;
-  list-style: none;
-  width: 50%;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.logo {
-  margin-top: 1px;
-  padding: 0px 25px;
-  height: 25px;
-}
-
-nav ul.first li:first-child {
-  margin-right: 8px;
-  padding: 10px 0px;
-  text-transform: capitalize;
-  width: auto;
-}
-
-nav ul.first li:not(:first-child) {
-  margin: 0px 10px;
-  padding-left: 2px;
-  text-transform: capitalize;
-  font-weight: bold;
-  font-size: 0.85em;
-  width: auto;
-}
-nav ul.snd {
-  list-style: none;
-  width: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
 }

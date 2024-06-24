@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e3</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        background-color: navy;
+        flex-direction: column;
+      }
+      .ball {
+        background-color: white;
+        /* height: 150px; */
+        width: 150px;
+        border-radius: 50%;
+        animation: bounce 1s infinite;
+      }
+      @keyframes bounce{
+        0% , 100%{
+            transform: translateY(0);
+            height: 135px;
+        }
+        50%{
+            transform: translateY(-350px);
+            height: 150px;
+        }
+      }
+      .shadow{
+        width: 200px;
+        border-radius: 50%;
+        box-shadow: 0px 1px 16px 1px black;
+        animation: fade 1s infinite;
+      }
+      @keyframes fade{
+        0% , 100%{
+            opacity: 1;
+        }
+        50%{
+            opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="ball"></div>
+        <div class="shadow"></div>
+    </div>
+  </body>
+</html>
