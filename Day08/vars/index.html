@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Variables and Data Types</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+
+      .section {
+        margin-bottom: 20px;
+      }
+
+      .section h2 {
+        color: #333;
+      }
+
+      .output {
+        background: #f4f4f4;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="section">
+      <h2>JavaScript Variables</h2>
+      <div id="variables" class="output"></div>
+    </div>
+
+    <div class="section">
+      <h2>JavaScript Data Types</h2>
+      <div id="datatypes" class="output"></div>
+    </div>
+
+    <div class="section">
+      <h2>JavaScript Objects</h2>
+      <div id="objects" class="output"></div>
+    </div>
+
+    <script>
+      // JavaScript Variables
+      let name = "John Doe";
+      const age = 30;
+      var isMarried = false;
+
+      document.getElementById("variables").innerHTML = `
+            <p><strong>let name = "John Doe";</strong> // name is a string variable</p>
+            <p><strong>const age = 30;</strong> // age is a number constant</p>
+            <p><strong>var isMarried = false;</strong> // isMarried is a boolean variable</p>
+        `;
+
+      // JavaScript Data Types
+      let stringType = "Hello, World!";
+      let numberType = 100;
+      let booleanType = true;
+      let undefinedType;
+      let nullType = null;
+      let symbolType = Symbol("symbol");
+
+      document.getElementById("datatypes").innerHTML = `
+            <p><strong>String:</strong> ${stringType}</p>
+            <p><strong>Number:</strong> ${numberType}</p>
+            <p><strong>Boolean:</strong> ${booleanType}</p>
+            <p><strong>Undefined:</strong> ${undefinedType}</p>
+            <p><strong>Null:</strong> ${nullType}</p>
+            <p><strong>Symbol:</strong> ${symbolType.toString()}</p>
+        `;
+
+      // JavaScript Objects
+      let person = {
+        firstName: "John",
+        lastName: "Doe",
+        age: 30,
+        fullName: function () {
+          return this.firstName + " " + this.lastName;
+        },
+      };
+
+      document.getElementById("objects").innerHTML = `
+            <p><strong>Object:</strong> let person = { firstName: "John", lastName: "Doe", age: 30, fullName: function() { return this.firstName + " " + this.lastName; } }</p>
+            <p><strong>Accessing Properties:</strong> person.firstName = ${
+              person.firstName
+            }, person.age = ${person.age}</p>
+            <p><strong>Calling Method:</strong> person.fullName() = ${person.fullName()}</p>
+        `;
+    </script>
+  </body>
+</html>
